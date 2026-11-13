@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abe Dunn</title>
+<meta name="description" content="Abe Dunn is an economist at the U.S. Bureau of Economic Analysis working on health economics, industrial organization, and economic measurement.">
+<meta property="og:title" content="Abe Dunn">
+<meta property="og:description" content="Economist, U.S. Bureau of Economic Analysis. Health economics, industrial organization, and economic measurement.">
+<meta property="og:type" content="profile">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Abe Dunn","alternateName":"Abe C. Dunn","jobTitle":"Assistant Chief Economist","worksFor":{"@type":"GovernmentOrganization","name":"U.S. Bureau of Economic Analysis"},"alumniOf":"University of Texas at Austin","sameAs":["https://scholar.google.com/citations?user=g_48LOkAAAAJ","https://www.bea.gov/research/meet-the-researchers/abe-c-dunn"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f6f8; --surface:#ffffff; --ink:#18213a; --muted:#5a6376; --rule:#dadee6; --accent:#1f3864; --accent-soft:#e6ebf4;
+  --display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --paper:#11151f; --surface:#171c28; --ink:#e6e9f0; --muted:#9aa3b5; --rule:#2a3142; --accent:#9db5e6; --accent-soft:#1f2940; color-scheme: dark; }
+}
+:root[data-theme="dark"]{ --paper:#11151f; --surface:#171c28; --ink:#e6e9f0; --muted:#9aa3b5; --rule:#2a3142; --accent:#9db5e6; --accent-soft:#1f2940; color-scheme: dark; }
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--body)}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+i{font-style:italic}
+
+.wrap{max-width:1120px;margin:0 auto;padding:56px 32px 72px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:64px}
+aside{position:sticky;top:48px;align-self:start;display:flex;flex-direction:column;gap:20px}
+.portrait{width:132px;height:132px;border-radius:50%;background:var(--accent);color:var(--paper);display:grid;place-items:center;font:600 44px/1 var(--display);letter-spacing:.02em;overflow:hidden;position:relative}
+.portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+h1{font:600 2.25rem/1.1 var(--display);margin:0;text-wrap:balance}
+.role{margin:0;color:var(--muted);font-size:.95rem;line-height:1.5}
+.role strong{color:var(--ink);font-weight:500;display:block}
+.links{list-style:none;margin:0;padding:16px 0 0;border-top:1px solid var(--rule);display:flex;flex-direction:column;gap:8px;font-size:.95rem}
+.links span{color:var(--muted)}
+.cv-btn{display:inline-block;margin-top:4px;padding:8px 14px;border:1px solid var(--accent);border-radius:4px;text-decoration:none;font-weight:500;width:max-content}
+.cv-btn:hover{background:var(--accent);color:var(--paper)}
+
+main{min-width:0;display:flex;flex-direction:column;gap:56px}
+section > h2{font:600 1.45rem/1.2 var(--display);margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h2 .count{font:400 .85rem/1 var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.about p{margin:0 0 14px;max-width:65ch}
+.about p:last-child{margin-bottom:0}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 4px}
+.filters button{font:500 .85rem/1 var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:8px 14px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.filters button .n{font-variant-numeric:tabular-nums;opacity:.75;margin-left:4px}
+.filter-note{font-size:.85rem;color:var(--muted);margin:10px 0 0}
+
+ol.list{list-style:none;margin:0;padding:0}
+.pub{display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.pub:last-child{border-bottom:0}
+.pub[hidden]{display:none}
+.yr{font:500 .9rem/1.6 var(--body);color:var(--muted);font-variant-numeric:tabular-nums;padding-top:1px}
+.ttl{margin:0;font:600 1.02rem/1.4 var(--display);text-wrap:pretty}
+.ttl a{color:var(--ink);text-decoration-color:var(--rule)}
+.ttl a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.meta{margin:4px 0 0;color:var(--muted);font-size:.9rem;line-height:1.5}
+.meta i{color:var(--ink)}
+.pill{display:inline-block;font:600 .7rem/1 var(--body);letter-spacing:.04em;padding:5px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.sub{font:600 1.05rem/1.3 var(--display);margin:32px 0 6px;color:var(--ink)}
+.empty{color:var(--muted);font-size:.9rem;padding:14px 0;margin:0}
+
+footer{grid-column:2;color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padding-top:16px}
+
+@media (max-width:860px){
+  .wrap{grid-template-columns:1fr;gap:40px;padding:32px 20px 56px}
+  aside{position:static}
+  footer{grid-column:1}
+}
+@media (max-width:420px){
+  .pub{grid-template-columns:44px minmax(0,1fr);gap:12px}
+  h1{font-size:1.9rem}
+}
+@media (prefers-reduced-motion:no-preference){ .filters button{transition:background .15s,color .15s} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <div class="portrait" aria-hidden="true">AD<img src="photo.jpg" alt="" onerror="this.remove()"></div>
+    <div>
+      <h1>Abe Dunn</h1>
+    </div>
+    <p class="role"><strong>Assistant Chief Economist</strong>U.S. Bureau of Economic Analysis</p>
+    <p class="role"><strong>Research Fellow</strong>Department of Economics, University of Vienna</p>
+    <ul class="links">
+      <li><span>Email</span><br><a href="mailto:abe.dunn@bea.gov">abe.dunn@bea.gov</a></li>
+      <li><a href="https://scholar.google.com/citations?user=g_48LOkAAAAJ">Google Scholar</a></li>
+      <li><a href="https://www.bea.gov/research/meet-the-researchers/abe-c-dunn">BEA research profile</a></li>
+      <li><a class="cv-btn" href="AbeDunn_CV_2026.pdf">Curriculum vitae (PDF)</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section class="about" id="about" aria-labelledby="about-h">
+      <h2 id="about-h">About</h2>
+      <p>Abe Dunn is Assistant Chief Economist at the U.S. Bureau of Economic Analysis (BEA) and a Research Fellow in the Department of Economics at the University of Vienna. His research spans health economics, industrial organization, and economic measurement.</p>
+      <p>Much of his work asks how to measure medical care correctly: its prices, its spending by disease, and its productivity. A second line of work uses new sources, such as card transactions and payroll records, to make official statistics faster and more geographically detailed. At BEA he oversees the Health Care Satellite Account and the agency’s near-real-time card spending statistics.</p>
+      <p>His research has appeared in the <i>Quarterly Journal of Economics</i>, <i>Econometrica</i>, <i>American Economic Journal: Macroeconomics</i>, the <i>Journal of Health Economics</i>, and <i>Health Affairs</i>. He is an editor of <i>Forum for Health Economics &amp; Policy</i> and holds a Ph.D. from the University of Texas at Austin.</p>
+    </section>
+
+    <section id="research" aria-labelledby="research-h">
+      <h2 id="research-h">Research <span class="count" id="count"></span></h2>
+      <div class="filters" role="group" aria-label="Filter by topic">
+        <button type="button" id="f-all" data-f="all" aria-pressed="true">All<span class="n"></span></button>
+        <button type="button" id="f-health" data-f="health" aria-pressed="false">Health care<span class="n"></span></button>
+        <button type="button" id="f-meas" data-f="meas" aria-pressed="false">Measurement &amp; big data<span class="n"></span></button>
+        <button type="button" id="f-io" data-f="io" aria-pressed="false">Industrial organization<span class="n"></span></button>
+      </div>
+
+      <h3 class="sub" id="working-papers">Working papers</h3>
+      <ol class="list">
+<li class="pub" data-tags="health meas">
+  <span class="yr">2024</span>
+  <div class="body"><p class="ttl">How Much Are Medical Innovations Worth? A Detailed Analysis Using Thousands of Cost-Effectiveness Studies</p>
+  <p class="meta">with Lasanthi Fernando and Eli Liebman. Revision requested, <i>American Economic Journal: Applied Economics</i>. BEA Working Paper WP2024-8</p></div></li>
+<li class="pub" data-tags="health">
+  <span class="yr">2024</span>
+  <div class="body"><p class="ttl">Are Medicaid and Medicare Patients Treated Equally?</p>
+  <p class="meta">with Calvin Ackley, Eli Liebman, and Adam Hale Shapiro. Conditionally accepted, <i>American Economic Journal: Economic Policy</i>. FRBSF Working Paper 2024-14</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">Quantifying Productivity Growth in Medical Care: 20 Years of Evidence from Nine Health Conditions</p>
+  <p class="meta">with Calvin Ackley and John A. Romley. BEA Working Paper WP2026-5</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">Expanding the Frontier of Economic Measurement: Weekly Regional Employment Statistics</p>
+  <p class="meta">with Matthew Bell, Eric English, Kyle Hood, Steven Mance, Lowell Mason, Brian Quistorff, and Michael Stepner. Working paper, 2026</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">Quality of Consumption</p>
+  <p class="meta">with Benjamin Bridgman and Mahsa Gholizadeh. Working paper, 2026</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">Containing Consumption Zones</p>
+  <p class="meta">with Andrea Batch, Daniel Fernandez, Mahsa Gholizadeh, Samuel Stern, and Steven Weinberg. Working paper, 2026</p></div></li>
+      </ol>
+
+      <h3 class="sub" id="publications">Journal articles</h3>
+      <ol class="list">
+<li class="pub" data-tags="health meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">US National Spending on Mental Health and Substance Use Disorder Treatment Driven by Case Growth, 2000–21</p>
+  <p class="meta">with Tami L. Mark, Lasanthi Fernando, and Peter Shieh. <i>Health Affairs</i>, 45(4): 365–371</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">The Value of Healthcare in the United States: Changes in Lifetime Spending and Health-Adjusted Life Expectancy, 1996 to 2016</p>
+  <p class="meta">with Calvin Ackley, Esha Dwibedi, Lasanthi Fernando, Jonah Joffe, Justine Mallatt, Joseph L. Dieleman, and Marcia R. Weaver. <i>Value in Health</i>, 29(7)</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl"><a href="https://csls.ca/wp-content/uploads/2026/06/IPM_Dunn_Final.pdf">Productivity Growth in the U.S. Medical Care Sector: An Analysis Using the BEA’s Health Care Satellite Account</a></p>
+  <p class="meta">with Calvin Ackley, Eli Liebman, and John A. Romley. <i>International Productivity Monitor</i>, 50: 99–128</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2026</span>
+  <div class="body"><p class="ttl">Expanding the Frontier of Economic Statistics Using Big Data: A Case Study of Regional Employment</p>
+  <p class="meta">with Eric English, Kyle Hood, Lowell Mason, and Brian Quistorff. <i>Review of Income and Wealth</i>, 72(1): e70042</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2025</span>
+  <div class="body"><p class="ttl">Economic Measurement Lost in a Random Forest? A Case Study of Employment Data</p>
+  <p class="meta">with Eric English, Kyle Hood, Lowell Mason, and Brian Quistorff. <i>AEA Papers and Proceedings</i>, 115: 68–72</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2025</span>
+  <div class="body"><p class="ttl">The Geography of Consumption and Local Economic Shocks: The Case of the Great Recession</p>
+  <p class="meta">with Mahsa Gholizadeh. <i>American Economic Journal: Macroeconomics</i>, 17(2): 206–244</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2025</span>
+  <div class="body"><p class="ttl">Consumption Zones</p>
+  <p class="meta">with Andrea Batch, Benjamin Bridgman, and Mahsa Gholizadeh. <i>Journal of Economic Geography</i>, 25(2): 191–213</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2024</span>
+  <div class="body"><p class="ttl"><a href="https://www.nber.org/papers/w29010">A Denial a Day Keeps the Doctor Away</a></p>
+  <p class="meta">with Joshua D. Gottlieb, Adam Hale Shapiro, Daniel J. Sonnenstuhl, and Pietro Tebaldi. <i>Quarterly Journal of Economics</i>, 139(1): 187–233</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2024</span>
+  <div class="body"><p class="ttl">Consumer Out-of-Pocket Drug Prices Grew Faster Than Prices Faced by Insurers After Accounting for Rebates, 2007–20</p>
+  <p class="meta">with Justine Mallatt and Lasanthi Fernando. <i>Health Affairs</i>, 43(9): 1284–1289</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2023</span>
+  <div class="body"><p class="ttl">Consequences of a Shortage and Rationing: Evidence from a Pediatric Vaccine</p>
+  <p class="meta">with Eli Liebman, Emily C. Lawler, and David B. Ridley. <i>Journal of Health Economics</i>, 92: 102819</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2023</span>
+  <div class="body"><p class="ttl">A Direct Measure of Medical Innovation on Health Care Spending: A Condition-Specific Approach</p>
+  <p class="meta">with Lasanthi Fernando and Eli Liebman. <i>Health Management, Policy and Innovation</i>, 8(2)</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2022</span>
+  <div class="body"><p class="ttl">A Systematic Examination of Quality-Adjusted Price Index Alternatives for Medical Care Using Claims Data</p>
+  <p class="meta">with Seidu Dauda and Anne Hall. <i>Journal of Health Economics</i>, 85: 102662</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2022</span>
+  <div class="body"><p class="ttl">Are Medical Care Prices Still Declining? A Re-Examination Based on Cost-Effectiveness Studies</p>
+  <p class="meta">with Anne Hall and Seidu Dauda. <i>Econometrica</i>, 90(2): 859–886</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2022</span>
+  <div class="body"><p class="ttl">Health Care Spending Effectiveness: Estimates Suggest That Spending Improved US Health from 1996 to 2016</p>
+  <p class="meta">with Marcia R. Weaver, Jonah Joffe, Michael Ciarametaro, Robert W. Dubois, Arjun Singh, Gianna W. Sparks, Lauryn Stafford, Christopher J. L. Murray, and Joseph L. Dieleman. <i>Health Affairs</i>, 41(7): 994–1004</p></div></li>
+<li class="pub" data-tags="health">
+  <span class="yr">2021</span>
+  <div class="body"><p class="ttl">Insurance Expansions and Hospital Utilization: Relabeling and Reabling?</p>
+  <p class="meta">with Matthew Knepper and Seidu Dauda. <i>Journal of Health Economics</i>, 78: 102482</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2021</span>
+  <div class="body"><p class="ttl">Measuring Consumer Spending Using Card Transaction Data: Lessons from the COVID-19 Pandemic</p>
+  <p class="meta">with Kyle Hood, Andrea Batch, and Alex Driessen. <i>AEA Papers and Proceedings</i>, 111: 321–325</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2020</span>
+  <div class="body"><p class="ttl">Administration above Administrators: The Changing Technology of Health Care Management</p>
+  <p class="meta">with Joshua D. Gottlieb and Adam Hale Shapiro. <i>AEA Papers and Proceedings</i>, 110: 274–278</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2020</span>
+  <div class="body"><p class="ttl">US Health Care Spending by Payer and Health Condition, 1996–2016</p>
+  <p class="meta">with Joseph L. Dieleman et al.. <i>JAMA</i>, 323(9): 863–884</p></div></li>
+<li class="pub" data-tags="health">
+  <span class="yr">2019</span>
+  <div class="body"><p class="ttl"><a href="https://doi.org/10.1162/ajhe_a_00107">Does Medicare Part D Save Lives?</a></p>
+  <p class="meta">with Adam Hale Shapiro. <i>American Journal of Health Economics</i>, 5(1): 126–164</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2019</span>
+  <div class="body"><p class="ttl">Productivity Growth of Skilled Nursing Facilities in the Treatment of Post-Acute-Care-Intensive Conditions</p>
+  <p class="meta">with Jing Gu, Neeraj Sood, and John Romley. <i>PLOS ONE</i>, 14(4): e0215876</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2019</span>
+  <div class="body"><p class="ttl">A Practical Guide to Episode Groupers for Cost-of-Illness Analysis in Health Services Research</p>
+  <p class="meta">with Cora Peterson and Scott D. Grosse. <i>SAGE Open Medicine</i>, 7: 2050312119840200</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2018</span>
+  <div class="body"><p class="ttl">High Spending Growth Rates for Key Diseases in 2000–14 Were Driven by Technology and Demographic Factors</p>
+  <p class="meta">with Bryn Whitmire, Andrea Batch, Lasanthi Fernando, and Lindsey Rittmueller. <i>Health Affairs</i>, 37(6): 915–924</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2018</span>
+  <div class="body"><p class="ttl">The Complexity of Billing and Paying for Physician Care</p>
+  <p class="meta">with Joshua D. Gottlieb and Adam Hale Shapiro. <i>Health Affairs</i>, 37(4): 619–626</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2018</span>
+  <div class="body"><p class="ttl">Physician Competition and the Provision of Care: Evidence from Heart Attacks</p>
+  <p class="meta">with Adam Hale Shapiro. <i>American Journal of Health Economics</i>, 4(2): 226–261</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2018</span>
+  <div class="body"><p class="ttl">Adjusting Health Expenditures for Inflation: A Review of Measures for Health Services Research in the United States</p>
+  <p class="meta">with Scott D. Grosse and Samuel H. Zuvekas. <i>Health Services Research</i>, 53(1): 175–196</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2017</span>
+  <div class="body"><p class="ttl">Guidelines for Measuring Disease Episodes: An Analysis of the Effects on the Components of Expenditure Growth</p>
+  <p class="meta">with Eli Liebman, Lindsey Rittmueller, and Adam Hale Shapiro. <i>Health Services Research</i>, 52(2): 720–740</p></div></li>
+<li class="pub" data-tags="health">
+  <span class="yr">2016</span>
+  <div class="body"><p class="ttl">Health Insurance and the Demand for Medical Care: Instrumental Variable Estimates Using Health Insurer Claims Data</p>
+  <p class="meta"><i>Journal of Health Economics</i>, 48: 74–88</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2016</span>
+  <div class="body"><p class="ttl">Health Care Spending Slowdown from 2000 to 2010 Was Driven by Lower Growth in Cost per Case, According to a New Data Source</p>
+  <p class="meta">with Lindsey Rittmueller and Bryn Whitmire. <i>Health Affairs</i>, 35(1): 132–140</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2015</span>
+  <div class="body"><p class="ttl">Implications of Utilization Shifts on Medical-Care Price Measurement</p>
+  <p class="meta">with Eli Liebman and Adam Hale Shapiro. <i>Health Economics</i>, 24(5): 539–557</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2015</span>
+  <div class="body"><p class="ttl">Physician Payments under Health Care Reform</p>
+  <p class="meta">with Adam Hale Shapiro. <i>Journal of Health Economics</i>, 39: 89–105</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2014</span>
+  <div class="body"><p class="ttl"><a href="https://doi.org/10.1086/674407">Do Physicians Possess Market Power?</a></p>
+  <p class="meta">with Adam Hale Shapiro. <i>Journal of Law and Economics</i>, 57(1): 159–193</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2013</span>
+  <div class="body"><p class="ttl">Geographic Variation in Commercial Medical-Care Expenditures: A Framework for Decomposing Price and Utilization</p>
+  <p class="meta">with Adam Hale Shapiro and Eli Liebman. <i>Journal of Health Economics</i>, 32(6): 1153–1165</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2013</span>
+  <div class="body"><p class="ttl">Medical Care Price Indexes for Patients with Employer-Provided Insurance: Nationally Representative Estimates from MarketScan Data</p>
+  <p class="meta">with Eli Liebman, Sarah J. Pack, and Adam Hale Shapiro. <i>Health Services Research</i>, 48(3): 1173–1190</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2012</span>
+  <div class="body"><p class="ttl">Drug Innovations and Welfare Measures Computed from Market Demand: The Case of Anti-Cholesterol Drugs</p>
+  <p class="meta"><i>American Economic Journal: Applied Economics</i>, 4(3): 167–189</p></div></li>
+<li class="pub" data-tags="health io">
+  <span class="yr">2010</span>
+  <div class="body"><p class="ttl">The Value of Coverage in the Medicare Advantage Insurance Market</p>
+  <p class="meta"><i>Journal of Health Economics</i>, 29(6): 839–855</p></div></li>
+<li class="pub" data-tags="io">
+  <span class="yr">2008</span>
+  <div class="body"><p class="ttl">Do Low-Quality Products Affect High-Quality Entry? Multiproduct Firms and Nonstop Entry in Airline Markets</p>
+  <p class="meta"><i>International Journal of Industrial Organization</i>, 26(5): 1074–1089</p></div></li>
+      </ol>
+
+      <h3 class="sub" id="chapters">Book chapters</h3>
+      <ol class="list">
+<li class="pub" data-tags="meas">
+  <span class="yr">2022</span>
+  <div class="body"><p class="ttl"><a href="https://www.nber.org/books-and-chapters/big-data-twenty-first-century-economic-statistics/races-comparison-machine-learning-and-alternative-data-predicting-economic-indicators">Off to the Races: A Comparison of Machine Learning and Alternative Data for Predicting Economic Indicators</a></p>
+  <p class="meta">with Jeffrey C. Chen, Kyle Hood, Alexander Driessen, and Andrea Batch. <i>Big Data for Twenty-First-Century Economic Statistics</i>, NBER / University of Chicago Press, 373–402</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2022</span>
+  <div class="body"><p class="ttl">Quantifying Productivity Growth in the Delivery of Important Episodes of Care within the Medicare Program Using Insurance Claims and Administrative Data</p>
+  <p class="meta">with John A. Romley, Dana Goldman, and Neeraj Sood. <i>Big Data for Twenty-First-Century Economic Statistics</i>, NBER / University of Chicago Press, 297–338</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2018</span>
+  <div class="body"><p class="ttl"><a href="https://www.nber.org/papers/w23117">Decomposing Medical Care Expenditure Growth</a></p>
+  <p class="meta">with Eli Liebman and Adam Hale Shapiro. <i>Measuring and Modeling Health Care Costs</i>, NBER / University of Chicago Press, 81–111</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2014</span>
+  <div class="body"><p class="ttl">Developing a Framework for Decomposing Medical-Care Expenditure Growth: Exploring Issues of Representativeness</p>
+  <p class="meta">with Eli Liebman and Adam Hale Shapiro. <i>Measuring Economic Sustainability and Progress</i>, NBER / University of Chicago Press, 545–574</p></div></li>
+      </ol>
+
+      <h3 class="sub" id="other">Other writing</h3>
+      <ol class="list">
+<li class="pub" data-tags="health meas">
+  <span class="yr"></span>
+  <div class="body"><p class="ttl">Why Are Prescription Drug Prices Falling?</p>
+  <p class="meta">with Benedic Ippolito. <i>Health Affairs Forefront</i>, forthcoming</p></div></li>
+<li class="pub" data-tags="meas">
+  <span class="yr">2020</span>
+  <div class="body"><p class="ttl">Measuring the Gross Domestic Product (GDP): The Ultimate Data Science Project</p>
+  <p class="meta">with Brian C. Moyer. <i>Harvard Data Science Review</i>, 2(1)</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2019</span>
+  <div class="body"><p class="ttl">Medical Expenditures Are Likely ‘Worth It.’ But Can We Measure How Much They Are Worth?</p>
+  <p class="meta">with Lasanthi Fernando. <i>Health Affairs Blog</i>, February 20</p></div></li>
+<li class="pub" data-tags="health meas">
+  <span class="yr">2015</span>
+  <div class="body"><p class="ttl">Introducing the New BEA Health Care Satellite Account</p>
+  <p class="meta">with Lindsey Rittmueller and Bryn Whitmire. <i>Survey of Current Business</i>, 95(1): 1–21</p></div></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>Updated November 2026</footer>
+</div>
+<script>
+(function(){
+  var items=[].slice.call(document.querySelectorAll('.pub'));
+  var lists=[].slice.call(document.querySelectorAll('ol.list'));
+  var btns=[].slice.call(document.querySelectorAll('.filters button'));
+  var total=items.length;
+  function has(el,f){return f==='all'||(' '+el.getAttribute('data-tags')+' ').indexOf(' '+f+' ')>-1;}
+  btns.forEach(function(b){var f=b.getAttribute('data-f');b.querySelector('.n').textContent=items.filter(function(el){return has(el,f);}).length;});
+  function apply(f){
+    var shown=0;
+    items.forEach(function(el){var on=has(el,f);el.hidden=!on;if(on)shown++;});
+    lists.forEach(function(ol){
+      var any=[].some.call(ol.children,function(li){return li.classList.contains('pub')&&!li.hidden;});
+      var e=ol.querySelector('.empty');
+      if(!any&&!e){e=document.createElement('li');e.className='empty';e.textContent='None in this topic.';ol.appendChild(e);}
+      if(any&&e)e.remove();
+    });
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-f')===f));});
+    document.getElementById('count').textContent=f==='all'?total+' items':shown+' of '+total+' items';
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-f'));});});
+  apply('all');
+})();
+</script>
+</body>
+</html>
